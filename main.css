@@ -24,7 +24,26 @@ h2{
     padding: 0px;
     border-bottom: 1px solid #1490D7;
 }
-
+.size40{
+    font-size:40px;
+}
+.size20{
+    font-size:20px;
+}
+.gauche{
+    float:left;
+}
+.clear{
+    clear:both;
+}
+.col1{
+    width:20%;
+    background-color: yellow;
+}
+.col2{
+    width:80%;
+    background-color: red;
+}
 
 
 /**
@@ -54,6 +73,7 @@ h2{
 ***/
 .footer{
     padding: 10px;
+    margin-top:50px;
 }
 /**
 **Debut du corps
@@ -62,6 +82,15 @@ h2{
 .corps{
     padding: 0% 2%;
 }
+.domaine table{
+    width:100%;
+}
+.domaine table td{
+    padding:10px 20px;
+    border:1px solid #1490D7;
+    width:33%;
+}
+
 
 /**
 **fin du corps
