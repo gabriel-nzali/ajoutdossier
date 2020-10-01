@@ -1,0 +1,39 @@
+body{
+    font-family: 'Berlin sans FB','Trebuchet MS', Arial;
+    }
+.size{
+    font-size:40px;
+}
+.colorBlueLight{
+    color: #1490D7;
+}
+.colorBlueLight{
+    color: #283645;
+}
+.colorOrange{
+    color: #FF8000;
+}
+
+
+
+/**
+**Ma partie header
+**
+*/
+.header{
+    display:flex;
+    align-items: center;
+    text-align: center;
+}
+.header .photoPerso ; .header .infoPerso {
+    width: 33.3%;
+}
+.header .posteRecherche{
+    flex: auto;
+}
+.header .infoPerso{
+    width: 33.3%;
+}
+.header .photoPerso img{
+    height: 200px;
+}
